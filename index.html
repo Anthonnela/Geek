@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./css/reset.css"> 
+    <link rel="stylesheet" href="./css/index.css"> 
+
+    <!-- Título e Ícono -->
+    <title>AluraGeek - Productos</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Toolbar (encabezado) -->
+    <header class="toolbar">
+        <div class="toolbar-logo">
+            <img src="./img/logo-alurageek.png" alt="Logo AluraGeek" class="logo">
+            <h1>AluraGeek</h1>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="main-container">
+        <section class="productos">
+            <h2>MIS PRODUCTOS:</h2>
+            <ul class="productos-lista" data-lista>
+                
+            </ul>
+        </section>
+
+        <!-- Formulario para agregar productos -->
+        <section class="formulario">
+        <h2>AGREGAR PRODUCTO:</h2>
+    <form data-formulario>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" data-nombre placeholder="Nombre del producto" required>
+
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" data-precio placeholder="Precio del producto" required>
+
+        <label for="imagen">Imagen (URL):</label>
+        <input type="text" id="imagen" data-imagen placeholder="URL de la imagen" required>
+
+        <!-- Botones dentro del formulario -->
+        <div class="botones">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </div>
+    </form>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>❤️❤️❤️</span> 
+                <span class="footer-title">AluraGeek</span>
+            </div>
+            <p>Desarrollado por Antonella</p>
+            <p>Alura LATAM - 2024</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript para manejar el formulario y agregar productos -->
+    <script type="module" src="./js/conectaAPI.js"></script>
+    <script type="module" src="./js/crearProducto.js"></script>
+    <script type="module" src="./js/mostrarProducto.js"></script>
+    
+ 
+</body>
+
+</html>

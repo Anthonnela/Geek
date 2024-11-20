@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Stormtrooper",
+      "precio": "$60.00",
+      "imagen": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR3QnLprl6OykICuVBNqLcdRM0YeQFQtjQ9JZlB5uNizjEzdGUuKRDskIK7HuM9HG5hjHg2fTCGYvth14BWx-YL6qEJrn2RjGDdYBxKxLmf58dVj2kNITOFq9Go9I8j6YnQ0dG8QlBj7Q&usqp=CAc"
+    },
+    {
+      "id": 2,
+      "nombre": "Game Boy Classic",
+      "precio": "$60.00",
+      "imagen": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPq55dl8TqpqGUeQZyZug4BfYRXvhxkgMa4sKo6Tv7NxNWaIwI4o0_PCFDxgNJG6k8F2-0KgtxErDY5btcrmNYw0z4VFhfetQZ53Y9BOC_aLKW4v4dLYFj71r3fA80T1wWFCxNetGZnfw&usqp=CAc"
+    },
+    {
+      "nombre": "Antonella",
+      "precio": "4444",
+      "imagen": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR3QnLprl6OykICuVBNqLcdRM0YeQFQtjQ9JZlB5uNizjEzdGUuKRDskIK7HuM9HG5hjHg2fTCGYvth14BWx-YL6qEJrn2RjGDdYBxKxLmf58dVj2kNITOFq9Go9I8j6YnQ0dG8QlBj7Q&usqp=CAc",
+      "id": 4
+    }
+  ]
+}
